@@ -33,7 +33,7 @@ In the previous exercise, you implemented feedforward propagation for neural net
 - implemented feedforward propogation
 - implemented regularized cost function and gradient descent
 - implemented backpropagation algorithm with random initialization and gradient checking to learn neural network parameters
-- implemnted regularized neural network to recognize handwritten digits
+- implemented regularized neural network to recognize handwritten digits
 
 
 *Exercise 5:*
