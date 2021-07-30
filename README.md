@@ -23,7 +23,7 @@ Build a logistic regression model to predict whether a student gets admitted int
 For this exercise, you will use logistic regression and neural networks to recognize handwritten digits (from 0 to 9). Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. This exercise will show you how the methods you've learned can be used for this classication task. In the first part of the exercise, you will extend your previous implemention of logistic regression and apply it to one-vs-all classification.
 
 - vectorized the cost function, gradient descent, and logistic regression for faster computing
-- implemented ove-vs-all multiclass logistic regression to recognize handwritten digits
+- implemented one-vs-all multiclass logistic regression to recognize handwritten digits
 - implemented a neural network to recognize handwritten digits
 
 
