@@ -54,7 +54,12 @@ In this exercise, you will implement the K-means clustering algorithm and apply 
 
 In a straightforward 24-bit color representation of an image, each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. Our image contains thousands of colors, and in this part of the exercise, you will reduce the number of colors to 16 colors. By making this reduction, it is possible to represent (compress) the photo in an efficient way. Specifically, you only need to store the RGB values of the 16 selected colors, and for each pixel in the image you now need to only store the index of the color at that location (where only 4 bits are necessary to represent 16 possibilities). 
 
-
 - implemented K-means clustering to compress an image
 - implemented PCA to find a low-dimensional representation of face images
+
+*Exercise 8:*
+In this exercise, you will implement the anomaly detection algorithm and apply it to detect failing servers on a network. In the second part, you will use collaborative filtering to build a recommender system for movies.
+
+- implemented anomaly detection
+- implemented a recommender system for movies
 
