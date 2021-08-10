@@ -1,4 +1,4 @@
-# coursera_intro_to_machine_learning
+# coursera_machine_learning
 Coursework for the Introduction to Machine Learning course by Andrew Ng on Coursera.
 
 *Exercise 1:*
