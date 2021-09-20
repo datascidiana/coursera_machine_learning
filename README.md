@@ -65,8 +65,11 @@ In a straightforward 24-bit color representation of an image, each pixel is repr
 
 
 *Exercise 8:*
-In this exercise, you will implement the anomaly detection algorithm and apply it to detect failing servers on a network. In the second part, you will use collaborative filtering to build a recommender system for movies.
+In this exercise, I implemented the anomaly detection algorithm and applied it to detect failing servers on a network. In the second part, I used collaborative filtering to build a recommender system for movies.
 
-- implemented anomaly detection
-- implemented a recommender system for movies
+- **Implemented anomaly detection.** Fitted a Gaussian distribution on a dataset with features on server throughput and latency - found mean and variance for each feature. By the means of cross validation on a validation data set and F1 scores, I found the optimal value for maximum probability to be used as a threshold for detecting anomalies. 
+
+<img width="565" alt="Screen Shot 2021-09-20 at 11 58 47" src="https://user-images.githubusercontent.com/30210990/134043084-9617006b-ad8c-4206-b2d1-e29c1772de12.png">
+
+- **Implemented a recommender system for movies.** Implemented a collaborative filtering learning algorithm 
 
