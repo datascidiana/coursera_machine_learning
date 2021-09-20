@@ -54,8 +54,15 @@ In this exercise, you will implement the K-means clustering algorithm and apply 
 
 In a straightforward 24-bit color representation of an image, each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. Our image contains thousands of colors, and in this part of the exercise, you will reduce the number of colors to 16 colors. By making this reduction, it is possible to represent (compress) the photo in an efficient way. Specifically, you only need to store the RGB values of the 16 selected colors, and for each pixel in the image you now need to only store the index of the color at that location (where only 4 bits are necessary to represent 16 possibilities). 
 
-- implemented K-means clustering to compress an image
-- implemented PCA to find a low-dimensional representation of face images
+- **Implemented K-means clustering to compress an image.** Reduced the number of bits per pixel location from 24 to 4, by storing the representation of 16 main colors in a dictionary and representating the 16 colors using 4 bits per pixel location when compressing the image. Achieved a compression by a factor of 6 - from 128\*128\*24=393,216 bits to 24\*16 +128\*128\*4=65,920. 
+
+<img width="618" alt="Screen Shot 2021-09-20 at 11 31 55" src="https://user-images.githubusercontent.com/30210990/134039392-53c38dd1-7e57-4e40-88c6-347d654af45f.png">
+
+- **Implemented PCA to find a low-dimensional representation of face images.** Used PCA on black and white images (grayscale) of faces and reduced dimensionality of image representation from 1,024 to 100 - some fine details were lost, but the main face characteristics were preserved. 
+
+<img width="739" alt="Screen Shot 2021-09-20 at 11 31 31" src="https://user-images.githubusercontent.com/30210990/134039320-c116b817-1a83-41ac-a648-040c4b00e069.png">
+
+
 
 *Exercise 8:*
 In this exercise, you will implement the anomaly detection algorithm and apply it to detect failing servers on a network. In the second part, you will use collaborative filtering to build a recommender system for movies.
