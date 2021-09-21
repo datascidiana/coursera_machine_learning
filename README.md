@@ -17,7 +17,7 @@ Built a logistic regression model to predict whether a student gets admitted int
 - **Plotted data.**
 - **Implemented the sigmoid function.**
 - **Implemented the cost function and gradient descent.**
-- **Implemented regularized logistic regression.** For the microchip test model, I created mapped the features into polynomial terms of x1 and x2, up to the sixth power.  
+- **Implemented regularized logistic regression.** For the microchip test model, I created mapped the features into polynomial terms of x1 and x2, up to the sixth power in order to create the circle shaped decision boundary.  
 - **Evaluated logistic regression model.**
 <img width="619" alt="Screen Shot 2021-09-21 at 12 26 29" src="https://user-images.githubusercontent.com/30210990/134218539-0e6a38a8-6fe4-461b-86cd-293aacf97c6a.png">
 <img width="589" alt="Screen Shot 2021-09-21 at 12 28 15" src="https://user-images.githubusercontent.com/30210990/134218769-88e1f61f-5b93-405e-a1fa-160cf1961546.png">
@@ -51,8 +51,9 @@ In this exercise, I implemented regularized linear regression and use it to stud
 *Exercise 6:*
 In this exercise, I used support vector machines (SVMs) to build a spam classifier. In the first half of this exercise, I used support vector machines (SVMs) with various example 2D datasets. In the next half of the exercise, I used support vector machines to build a spam classifier.
 
-- **Implemented SVMs with Gaussian kernels on datasets that are not linearly separable.**
+- **Implemented SVMs with Gaussian kernels on datasets that are not linearly separable.** Gaussian kernel - similarity function that calculates the distance between 2 points. 
 - **Trained SVMs to build a spam filter.**
+<img width="561" alt="Screen Shot 2021-09-21 at 12 40 47" src="https://user-images.githubusercontent.com/30210990/134220526-9f006c1f-02d2-4734-a71e-84b2a6e69400.png">
 
 *Exercise 7:*
 In this exercise, I implemented the K-means clustering algorithm and applied it to compress an image by reducing the number of colors that occur in an image to only those that are most common in that image. In the second part, I used principal component analysis to find a low-dimensional representation of face images. 
