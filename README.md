@@ -12,13 +12,15 @@ In this part of this exercise, I implemented linear regression with one variable
 
 
 *Exercise 2:*
-Built a logistic regression model to predict whether a student gets admitted into a university. I have historical data from previous applicants that I used as a training set for logistic regression. For each training example, I have the applicant's scores on two exams and the admissions decision.
+Built a logistic regression model to predict whether a student gets admitted into a university. For each training example, I have the applicant's scores on two exams and the admissions decision. I have also predicted whether a microchip passes quality assurance test based on scores for 2 microchip tests. 
 
 - **Plotted data.**
 - **Implemented the sigmoid function.**
 - **Implemented the cost function and gradient descent.**
-- **Implemented regularized logistic regression.**
+- **Implemented regularized logistic regression.** For the microchip test model, I created mapped the features into polynomial terms of x1 and x2, up to the sixth power.  
 - **Evaluated logistic regression model.**
+<img width="619" alt="Screen Shot 2021-09-21 at 12 26 29" src="https://user-images.githubusercontent.com/30210990/134218539-0e6a38a8-6fe4-461b-86cd-293aacf97c6a.png">
+<img width="589" alt="Screen Shot 2021-09-21 at 12 28 15" src="https://user-images.githubusercontent.com/30210990/134218769-88e1f61f-5b93-405e-a1fa-160cf1961546.png">
 
 
 *Exercise 3:*
@@ -35,7 +37,7 @@ In this exercise, I implemented the backpropagation algorithm to learn the param
 
 - **Implemented regularized cost function and gradient descent.**
 - **Implemented backpropagation algorithm with random initialization and gradient checking to learn neural network parameters.**
-- **Implemented regularized neural network to recognize handwritten digits.**
+- **Implemented regularized neural network to recognize handwritten digits.** (L2 regularization method)
 <img width="579" alt="Screen Shot 2021-09-20 at 14 35 07" src="https://user-images.githubusercontent.com/30210990/134063356-6dc8ea15-45a0-4926-b965-73235d6a0c51.png">
 
 
